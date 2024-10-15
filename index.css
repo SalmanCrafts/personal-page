@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #f0f0f0, #c0c0c0);
+    /* height: 100%; */
+  }
+#nav-container{
+   background-color: #f0f0f0;
+   border:1px solid brown;
+   display: flex;
+   justify-content: space-between;
+   font-family: "Roboto", sans-serif;
+}
+.right-side, .left-side{
+    list-style-type:d none;
+}
+.right-side li, .left-side li{
+    display: inline-block;
+}
+.left-side li a{
+   border-right: 1px solid darkslategrey;
+   border-radius: 40px;
+}
+.right-side li span{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-side li , .left-side li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: black;
+    padding: 14px 16px;
+    font-weight: bold;
+    cursor:pointer;
+}
+#content{
+    height: 400px;
+    width: 100%;
+    /* margin-top: 2%; */
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+#image{
+    height: 300px;
+    width:300px;
+    background-image: url(./portfolio.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+#main-content{
+    height:300px ;
+    width: 500px;
+    padding: 10px;
+}
+#main-content h1{
+    font-size: 4.5rem;
+    color:darkgrey;
+    letter-spacing: 1.5px;
+    margin-top: 5%;
+
+}
+#main-content h2{
+    font-size: 22px;
+    color: #333;
+    letter-spacing: 1px;
+    margin-left: 3%;
+    margin-top: 0;
+}
+#main-content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-left: 3%;
+    font:bold;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    border: 2px dashed darkgray;
+}
+#footerdiv{
+    padding: 2px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+   display: inline-block;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+footer ul li span{
+    font-size: 12px;
+    color: darkslategray;
+}
+footer ul li span:hover{
+    cursor: pointer;
+    color: blue;
+}
+footer ul li span .fa-brands{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 2px;
+    color: black;
+}
+footer ul li span .fa-brands:hover{
+    color: blue;
+}
